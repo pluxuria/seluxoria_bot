@@ -97,7 +97,7 @@ async def set_role(message: types.Message):
 # Авто-сообщения для предотвращения спящего режима
 async def keep_alive():
     while True:
-        await bot.send_message(LOG_CHAT_ID, "Я активен! 🔄")
+        await bot.send_message(LOG_CHAT_ID, "лунный кролек всегда к вашим услугам")
         await asyncio.sleep(600)
 
 # Основной запуск бота
